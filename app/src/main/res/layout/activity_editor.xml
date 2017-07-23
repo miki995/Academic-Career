@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    android:background="@color/colorPrimaryDarkBack"
+    tools:context=".EditorActivity"
+    tools:ignore="Overdraw">
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_overview" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            tools:ignore="RtlSymmetry"
+            android:paddingStart="4dp">
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_course_name"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_course_name"
+                android:inputType="textCapWords"
+                android:textColorHint="#AEB6BD"
+                android:textColor="#AEB6BD" />
+
+            <!-- Credit field -->
+            <EditText
+                android:id="@+id/edit_course_credit"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_course_credit"
+                android:inputType="number"
+                android:textColorHint="#AEB6BD"
+                android:textColor="#AEB6BD" />
+
+            <EditText
+                android:id="@+id/edit_course_grade"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_course_grade"
+                android:inputType="number"
+                android:textColorHint="#AEB6BD"
+                android:textColor="#AEB6BD" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
