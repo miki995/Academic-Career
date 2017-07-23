@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Akademska Karijera</string>
-    <string name="action_insert_dummy_data">"Unesite "</string>
     <string name="action_delete_all_entries">Izbrisi sve ispite</string>
     <string name="empty_view_title_text">Jos uvek nemate ispita…</string>
     <string name="empty_view_subtitle_text">Pocnite dodavanjem ispita</string>
@@ -23,16 +22,12 @@
     <string name="cancel">Odustani</string>
     <string name="category_overview">Rezime</string>
     <string name="hint_course_name">Naziv</string>
-    <string name="hint_course_credit">Kredit od 1-15</string>
-    <string name="hint_course_grade">Ocjena od 6-10</string>
+    <string name="hint_course_credit">Kredit od 1–15</string>
+    <string name="hint_course_grade">Ocjena od 6–10</string>
     <string name="credits">Kredita</string>
     <string name="average_quotation">Vasa prosjecna ocjena je :</string>
     <string name="sum_quotation">Osvojeno kredita do sada:</string>
     <string name="delete_dialog_msga">Izbrisati sve ispite?</string>
-    <string name="about">O aplikaciji</string>
-    <string name="share">Podijeli</string>
-    <string name="rate">Ocijeni na Prodavnici</string>
     <string name="contact">Kontaktirajte programera</string>
-    <string name="about_info">Evo sta mozete sa ovom Aplikacijom:  ​ •  Provjerite napredak : uvijek cete znati vasu prosjecnu ocjenu  ​ • Lako unosenje ispita da provjerite napredak: pitanje sekundi…</string>
     <string name="contact_info">Ni jedna aplikacija ne moze pokrenuti zahtjev. Molim instalirajte webbrowser</string>
 </resources>

@@ -72,10 +72,10 @@
     <string name="hint_course_name">Name</string>
 
     <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_course_credit">Credit from 1-15</string>
+    <string name="hint_course_credit">Credit from 1–15</string>
 
     <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
-    <string name="hint_course_grade">Grade from 6-10</string>
+    <string name="hint_course_grade">Grade from 6–10</string>
 
     <string name="credits">Credits</string>
 
@@ -83,12 +83,7 @@
     <string name="sum_quotation">Credits obtained so far :</string>
 
     <string name="text1" translatable="false">Shelter</string>
-    <string name="text2" translatable="false">Empty Shelter</string>
-    <string name="about">About app</string>
-    <string name="share">Share</string>
-    <string name="rate">Rate on Play Store</string>
     <string name="contact">Contact the developer</string>
-    <string name="about_info">Here\'s what you can do with Academic Career app:  ​ • Check your progress from the main screen: you\'ll always know your average grade  ​ • Easily insert your examinations to check your progress: it is a matter of seconds...</string>
     <string name="contact_info">No application can handle this request. Please install a webbrowser</string>
 
 

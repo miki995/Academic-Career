@@ -96,9 +96,10 @@
             android:id="@+id/empty_shelter_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/ic_empty_shelter"
-            android:contentDescription="@string/text1" />
+            android:src="@drawable/empty_courses"
+            android:contentDescription="@string/text1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
 
         <TextView
             android:id="@+id/empty_title_text"
@@ -135,6 +136,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_add_pet"
+        android:src="@drawable/add_course"
         android:layout_alignParentEnd="true" />
 </RelativeLayout>

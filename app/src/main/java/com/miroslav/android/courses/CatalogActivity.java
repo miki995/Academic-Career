@@ -175,7 +175,7 @@ public class CatalogActivity extends AppCompatActivity implements
         return true;
     }
 
-    public void showDeleteConfirmationDialog() {
+    private void showDeleteConfirmationDialog() {
         // Create an AlertDialog.Builder and set the message, and click listeners
         // for the postivie and negative buttons on the dialog.
         AlertDialog.Builder builder = new AlertDialog.Builder(this);

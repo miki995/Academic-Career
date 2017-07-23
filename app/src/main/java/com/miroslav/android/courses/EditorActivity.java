@@ -392,7 +392,7 @@ public class EditorActivity extends AppCompatActivity implements
     /**
      * Prompt the user to confirm that they want to delete this course.
      */
-    public void showDeleteConfirmationDialog() {
+    private void showDeleteConfirmationDialog() {
         // Create an AlertDialog.Builder and set the message, and click listeners
         // for the postivie and negative buttons on the dialog.
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
